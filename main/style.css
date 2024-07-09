@@ -1,0 +1,111 @@
+body{
+   background-color: white;
+   background-image: url("../media/frontend_text_2.jpg"); 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: contain;
+   background-position: center;
+}
+span{
+    text-transform: uppercase;
+}
+.scroll{
+    padding-top: 70px;
+    background-color: white;
+    margin-top: 750px;
+    width: 100%;
+}
+.scroll h1{
+    text-align: center;
+}
+
+.second{
+    border: 3px solid #8383a9;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+.second img{
+    max-width: 100%;
+    max-height: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.second h4{
+    text-align: right;
+    direction: rtl;
+}
+.second p{
+    text-align: justify;
+    text-align-last: center;
+}
+.second input{
+    background-color: grey;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+.scroll h3{
+    text-align: center;
+    padding: 30px;
+}
+.borders{
+    width: 200px;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    background-color: #eee;
+    border-width: 6px;
+    border-style: solid dotted double dashed;
+    border-color: #02ffae #fbdb4a #510081 #d6704b;
+    border-radius: 60px 15px;
+    outline: 6px solid blueviolet;
+    outline-offset: 10px;
+}
+.hr{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 2px solid grey;
+}
+#part1 h3{
+    text-align: left;
+}
+#part1 h1{
+    text-align: center;
+    font-size: 10vw;
+    text-shadow: 3px 3px #fbdb4a, 6px 6px greenyellow;
+}
+#part2 h3{
+    text-align: left;
+}
+#part2 div{
+    background-color: rgb(118, 0, 139);
+    color: white;
+    width: 300px;
+    height: 100px;
+    overflow-x: hidden;
+    letter-spacing: 2px;
+    line-height: 25px;
+    padding: 12px;
+    border-radius: 7px;
+}
+#part3 h3{
+    text-align: left;
+}
+#part3 div{
+    background-image: linear-gradient(to right, orange, yellow);
+    width: 300px;
+    padding: 12px;
+    margin-bottom: 100px;
+    border-radius: 7px;
+    text-align: center; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
